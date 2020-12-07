@@ -28,6 +28,32 @@
   color: #61dafb;
 }
 
+.head {
+    color: white;
+    background-color: darkblue;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.nation {
+    font-size: 24px;
+}
+
+.left {
+    padding-left: 50px;
+    float: left;
+}
+
+.right {
+    padding-right: 50px;
+    float: right;
+}
+
+.google-maps {
+    margin-left: 20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
