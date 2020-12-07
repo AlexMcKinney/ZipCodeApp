@@ -5,9 +5,10 @@ and display it on the screen.
 Just for fun, it also provides a link to Google Maps at the given location.  
 
 ##To run the project
+After downloading the project and going to the root directory...
 1) Install npm if you don't have it already (see https://www.npmjs.com/get-npm)
-2) Run "npm install" to get the required packages.
-3) Run "npm start" from the root directory of this project to build & run it.    
+2) Run "npm install" to get the required packages (listed in package.json).
+3) Run "npm start" to build & run the project.    
 After it builds and starts the local demo server, it will open a tab in your 
 default web browser with the app running.
 
