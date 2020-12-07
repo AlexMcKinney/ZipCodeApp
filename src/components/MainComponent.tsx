@@ -51,7 +51,7 @@ export default class MainComponent extends React.Component<MainProps> {
                 <div>
                     <h1 class='head'>
                         <FaSearchLocation class='left'/>
-                        Zip Code Lookup App {this.state.location && this.state.location.country}
+                        Zip Code Lookup App
                         <FaSearchLocation class='right'/>
                     </h1>
                 </div>
