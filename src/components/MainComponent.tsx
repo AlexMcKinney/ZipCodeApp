@@ -42,6 +42,10 @@ export default class MainComponent extends React.Component<MainProps> {
     render() {
         const loc = this.state.location;
 
+        function getURL(place: Place){
+            return 'https://maps.google.com/?ll='+place.latitude+','+place.longitude+'&z=13';
+        }
+
         return (
             <div>
                 <div>
@@ -65,7 +69,7 @@ export default class MainComponent extends React.Component<MainProps> {
                                 <div key={place['place name']}>
                                     <p>
                                         {place['place name']}, {place.state} ({place['state abbreviation']})
-                                        <a class='google-maps' target='_blank' href='https://maps.google.com/?ll={place.latitude},{place.longitude}'>Google Maps({place.latitude}, {place.longitude})</a>
+                                        <a class='google-maps' target='_blank' href={getURL(place)}>Google Maps({place.latitude}, {place.longitude})</a>
                                     </p>
                                 </div>
                             ))}
